@@ -10,3 +10,8 @@
     background-color: white;
     margin: 10px;
 }
+
+.nav{
+      grid-column-start: 1;
+  grid-column-end: 4;
+}
