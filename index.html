@@ -2,7 +2,7 @@
 <head>
 <style>
 .container {
-  display: grid;
+  display: flex;
   grid-template-columns: auto auto auto;
   background-color: rgb(160, 0, 209);
   padding: 10px;
@@ -18,16 +18,14 @@
 </head>
 <body>
 
+  <div class="container">
+  <div style="flex-grow: 10">Nav</div>
+</div>
+
 <div class="container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>
-  <div>7</div>
-  <div>8</div>
-  <div>9</div>
+ <div style="flex-grow: 10">1</div>
+ <div style="flex-grow: 10">2</div>
+ <div style="flex-grow: 10">3</div>
 </div>
 
 </body>
